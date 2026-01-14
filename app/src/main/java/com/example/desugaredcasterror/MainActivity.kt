@@ -20,7 +20,8 @@ private val fmt = DateTimeFormatter.ISO_DATE
 class MainActivity : ComponentActivity() {
   override fun onCreate(savedInstanceState: Bundle?) {
     super.onCreate(savedInstanceState)
-    // Break and evaluate expression `fmt`
+    val fmt1 = fmt
+    // Break and evaluate expression `fmt` and fmt1
     enableEdgeToEdge()
     setContent {
       DesugaredcasterrorTheme {
